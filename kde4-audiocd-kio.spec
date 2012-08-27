@@ -2,8 +2,8 @@
 %define		orgname		audiocd-kio
 %define		qtver		4.8.1
 
-Summary:	K Desktop Environment - multimedia applications
-Summary(pl.UTF-8):	K Desktop Environment - aplikacje multimedialne
+Summary:	Audiocd protocol for konqueror
+Summary(pl.UTF-8):	Protokół audiocd dla konquerora
 Name:		kde4-kdemultimedia
 Version:	4.9.0
 Release:	0.1
@@ -36,21 +36,16 @@ BuildRequires:	rpmbuild(macros) >= 1.600
 BuildRequires:	xine-lib-devel >= 1:1.0
 BuildRequires:	xorg-lib-libXpm-devel
 BuildRequires:	zlib-devel
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%package audiocd
-Summary:	Audiocd protocol for konqueror
-Summary(pl.UTF-8):	Protokół audiocd dla konquerora
-Group:		X11/Applications
 Requires:	kde4-libkcddb = %{version}
 Requires:	kde4-konqueror >= %{version}
 Provides:	kdemultimedia(audiocd) = %{version}-%{release}
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description audiocd
+%description
 This package allows konqueror to play audiocd's without the need of an
 external application. Just enter audiocd:/ in the location field.
 
-%description audiocd -l pl.UTF-8
+%description -l pl.UTF-8
 Ten pakiet pozwala konquerorowi odtwarzanie płyt z muzyką bez potrzeby
 używania zewnętrznej aplikacji. Po prostu wpisz audiocd:/ w pole
 adresu.
