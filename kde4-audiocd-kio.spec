@@ -4,7 +4,7 @@
 
 Summary:	Audiocd protocol for konqueror
 Summary(pl.UTF-8):	Protokół audiocd dla konquerora
-Name:		kde4-kdemultimedia
+Name:		kde4-%{orgname}
 Version:	4.9.0
 Release:	0.1
 License:	GPL v2+
