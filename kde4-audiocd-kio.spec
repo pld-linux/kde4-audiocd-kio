@@ -5,7 +5,7 @@
 Summary:	Audiocd protocol for konqueror
 Summary(pl.UTF-8):	Protokół audiocd dla konquerora
 Name:		kde4-%{orgname}
-Version:	4.9.4
+Version:	4.10.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
