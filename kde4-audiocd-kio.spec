@@ -73,9 +73,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/kde4/libaudiocd_encoder*.so
 %attr(755,root,root) %{_libdir}/libaudiocdplugins.so.4.*.*
 %attr(755,root,root) %ghost %{_libdir}/libaudiocdplugins.so.?
-%{_datadir}/apps/kconf_update/upgrade-metadata.sh
 %{_datadir}/config.kcfg/audiocd_*_encoder.kcfg
-%{_datadir}/apps/kconf_update/audiocd.upd
 %{_datadir}/kde4/services/audiocd.protocol
 %{_datadir}/kde4/services/audiocd.desktop
 %{_datadir}/apps/solid/actions/solid_audiocd.desktop
