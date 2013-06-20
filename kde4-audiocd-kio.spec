@@ -16,6 +16,7 @@ BuildRequires:	cdparanoia-III-devel
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	flac-devel >= 1.1.2
 BuildRequires:	kde4-kdelibs-devel >= %{version}
+BuildRequires:	kde4-libkcddb-devel
 BuildRequires:	kde4-libkcompactdisc-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libstdc++-devel
