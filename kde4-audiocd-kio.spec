@@ -5,12 +5,12 @@
 Summary:	Audiocd protocol for konqueror
 Summary(pl.UTF-8):	Protokół audiocd dla konquerora
 Name:		kde4-%{orgname}
-Version:	4.14.2
+Version:	4.14.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	542acb6ab4007fa4b8bb0a9aff6265e5
+# Source0-md5:	f298189165b4c864527090b50beb904d
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cdparanoia-III-devel
 BuildRequires:	cmake >= 2.8.0
